@@ -2,10 +2,10 @@ import { Flex, Heading, HStack, Input } from "@chakra-ui/react";
 import { InputGroup } from "../ui/input-group";
 import { LuSearch } from "react-icons/lu";
 import DaySvg from "@/assets/svgs/day.svg";
-import ClockRotateSvg from "@/assets/svgs/clockRotate.svg";
 import NotificationSvg from "@/assets/svgs/notification.svg";
 import SidebarSvg from "@/assets/svgs/sidebar.svg";
 import ShortcutSvg from "@/assets/svgs/shortcut.svg";
+import ClockRotateSvg from "@/assets/svgs/clockrotate.svg";
 
 export function TopBar() {
   return (
