@@ -1,7 +1,6 @@
 import { Navigate, RouteObject } from "react-router-dom";
 import { DashboardLayout } from "@/components/layouts/dashboard-layout";
 import { Overview } from "../overview";
-import { ProductRoutes } from "../product/routes";
 import { ProtectedRoutes } from "@/routes/ProtectedRoutes";
 import { RouteEnum } from "@/common/enum/Route";
 import { RouteError } from "@/components/error/ErrorElement";
@@ -9,7 +8,7 @@ import { RouteError } from "@/components/error/ErrorElement";
 // eslint-disable-next-line react-refresh/only-export-components
 const DashboardRouteList: RouteObject[] = [
   { path: RouteEnum.OVERVIEW, element: <Overview /> },
-  { path: RouteEnum.PRODUCT, children: ProductRoutes },
+  // { path: RouteEnum.PRODUCT, children: ProductRoutes },
 ];
 
 export const DashboardRoutes = {
