@@ -23,7 +23,9 @@ export function Left() {
               Icon={item.percent < 0 ? DownSvg : UpSvg}
               title={item.title}
               value={formatNumber(item.value)}
-              percent={`${item.percent}%`}
+              percent={
+                item.percent < 0 ? `${item.percent}%` : `+${item.percent}%`
+              }
               bg={item.bg}
             />
           </GridItem>
