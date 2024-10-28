@@ -1,0 +1,11 @@
+* {
+  font-family: "IBM Plex Sans", "Inter", sans-serif;
+  box-sizing: border-box;
+  color: black;
+}
+.apexcharts-xaxis-label {
+  font-size: 12px;
+  font-family: "Inter";
+  color: rgba(28, 28, 28, 0.3);
+  font-weight: 400;
+}
